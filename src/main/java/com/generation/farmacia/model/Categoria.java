@@ -58,4 +58,15 @@ public class Categoria {
 		this.descricao = descricao;
 	}
 
+	public Categoria(Long id, String tipo, String descricao) {
+		this.id = id;
+		this.tipo = tipo;
+		this.descricao = descricao;
+	}
+
+	public Categoria() {
+	}
+	
+	
+
 }
